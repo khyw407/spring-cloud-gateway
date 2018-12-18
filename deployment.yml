@@ -44,6 +44,7 @@ spec:
         version: latest
     spec:
       hostname: gateway
+      subdomain: gateway
       containers:
       - name: spring-cloud-gateway
         image: 192.168.0.8:5000/spring-cloud-gateway:latest
